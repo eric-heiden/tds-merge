@@ -35,7 +35,6 @@ IF(USE_CPPAD)
       ${CMAKE_DL_LIBS}
       opengl_window
       tinyxml2
-      glog::glog
       CppADCodeGen
   )
   if (USE_STAN)
